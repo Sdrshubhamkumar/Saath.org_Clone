@@ -1,0 +1,35 @@
+.topNavThree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 230, 237);
+}
+
+.topNavThree ul {
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    list-style-type: disc;
+   
+}
+
+.topNavThree ul li {
+
+    margin: 0;
+    display: list-item; /* Keeps list items in one line */
+    list-style-type: disc;
+
+}
+
+.topNavThree ul li a {
+    text-decoration: none;
+    color: rgb(91, 84, 84);
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Prevents unwanted flex behavior */
+    font-size: 14px; /* Adjust text size */
+}

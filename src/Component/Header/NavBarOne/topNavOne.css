@@ -1,0 +1,24 @@
+.topNavOne{
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+}
+.EnquireNow{
+    /* color: #727272; */
+    float: right;  
+    font-size: 14px;
+    padding: 11px 18px;
+    background: #fdae30;
+    margin: 0px;
+    margin-left: auto;
+}
+.Enquire{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}

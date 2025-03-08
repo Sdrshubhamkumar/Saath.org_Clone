@@ -1,0 +1,127 @@
+.homeContent{
+    margin: 0vw 25vh;
+}
+marquee a{
+    font-size: 16px;
+    line-height: 50px;
+    text-decoration: none;
+    
+}
+.about{
+
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 25px;
+}
+
+.safe-affordable-cargo {
+    float: left;
+    min-height: initial;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin: 0%;
+}
+strong {
+    margin: 0%;
+}
+.content>p{
+    margin: 0%;
+    color: #767676;
+}
+.list-unstyled>p {
+    color: #767676;
+    font-family: lato;
+    line-height: 27px;
+    margin: 0%; 
+    width: 100%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    overflow-wrap: break-word;
+}
+.safe-affordable-cargo-1 {
+   width: 100%;
+   margin: 0px auto;
+}
+.text-center {
+    text-align: center;
+}
+.sect-btn2 {
+    margin-top: 37px;
+}
+
+.theme-btn {
+    background: #575757;
+    color: #FFF;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+/*.theme-btn {
+    color: #fff;
+    float: left;
+    font-family: raleway;
+    font-size: 11px;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 15px 39px;
+    position: relative;
+    z-index: 0;
+}*/
+.highlights{ 
+    width: 25%;
+    border: 1px solid #ccc;
+    position: absolute; 
+    right: 0%;
+    top: 110%;
+    margin-right: 25vh;
+
+    
+}
+
+.heading>h2.h{
+    background: rgba(90, 78, 140, 1);
+    color: #fff;
+    margin: 0%;
+}
+.heading>h2 {
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    position: relative;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+.list-unstyled {
+padding: 15px;
+}
+a {
+    color:black;
+    text-decoration: none;
+    padding: 0%;
+}
+.list-unstyled p{
+    margin: 0%;
+}
+.text-right {
+    text-align: right;
+}
+.homeContent__container {
+    margin-right: 57vh;
+}
+h2{
+    margin: 0%;
+}
+.sign{
+    /* margin: 0%; */
+}
