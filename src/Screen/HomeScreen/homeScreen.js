@@ -2,6 +2,7 @@ import React from 'react'
 import './homeScreen.css'
 import HomeBanner from './HomeBanner/homeBanner'
 import HomeContent from './HomeBanner/homeContent'
+import HomeSector from './HomeBanner/homeSector'
 
 
 const HomeScreen = () => {
@@ -9,7 +10,7 @@ const HomeScreen = () => {
     <div className='homeScreen'>
       <HomeBanner/>
       <HomeContent/>
-      
+      <HomeSector/>
     </div>
   )
 }

@@ -1,10 +1,15 @@
 .homeContent{
     margin: 0vw 25vh;
 }
+.homeContent2{
+    display: flex;
+
+}
 marquee a{
     font-size: 16px;
     line-height: 50px;
     text-decoration: none;
+    color: rgb(11, 106, 144);
     
 }
 .about{
@@ -77,12 +82,11 @@ strong {
     z-index: 0;
 }*/
 .highlights{ 
-    width: 25%;
+    /* width: 25%; */
     border: 1px solid #ccc;
-    position: absolute; 
-    right: 0%;
-    top: 110%;
-    margin-right: 25vh;
+    padding-bottom: 10px;
+    height: 100%;
+
 
     
 }
@@ -97,13 +101,13 @@ strong {
     font-weight: 800;
     margin-bottom: 15px;
     padding-bottom: 25px;
-    position: relative;
+    /* position: relative; */
     text-transform: uppercase;
     overflow-wrap: break-word;
     text-align: center;
 }
 .list-unstyled {
-padding: 15px;
+padding: 0px 15px;
 }
 a {
     color:black;
@@ -117,11 +121,9 @@ a {
     text-align: right;
 }
 .homeContent__container {
-    margin-right: 57vh;
+margin-right: 40px;
 }
 h2{
     margin: 0%;
 }
-.sign{
-    /* margin: 0%; */
-}
+

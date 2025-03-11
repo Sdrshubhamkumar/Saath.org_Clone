@@ -20,7 +20,7 @@ const TopNavTwo = () => {
                  <span ><a href="mailto:mail@saath.org" class='mail'>mail@saath.org</a></span>
              </li>
              <li>
-                <a href="https://saath.org/donate-now/" class="theme-btn">DONATE NOW</a>
+                <a href="https://saath.org/donate-now/" class="donate-btn">DONATE NOW</a>
              </li>
              </ul>
      </div>

@@ -1,0 +1,9 @@
+.homeSector{
+    background-color: #efebeb ;
+}
+.sector{
+
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}

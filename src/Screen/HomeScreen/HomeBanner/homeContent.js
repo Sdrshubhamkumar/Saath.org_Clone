@@ -10,6 +10,7 @@ const HomeContent = () => {
 		    <a href="https://saath.org/wp-content/uploads/2024/12/BG-Report-for-Print-1.pdf" target="_blank">BUSINESS-GYM - Progress Report 2024</a>
 	   </marquee>
 
+      <div class='homeContent2'>
       <div className='homeContent__container'>
     
        <div class="about">
@@ -74,6 +75,7 @@ const HomeContent = () => {
 				    </div>
 
 		</div>
+    </div>
 	</div>
 
 

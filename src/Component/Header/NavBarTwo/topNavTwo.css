@@ -7,15 +7,19 @@
     height: 90px;
     box-sizing: border-box;
     border: 1px solid rgb(222, 230, 237);
+    position: sticky;
+    top: 0%;
 }
 .topNavOneLogo{
     margin: 0%;
 }
-.logo{
-    width: 80%;
-    height: 90px;
-    margin-left: 20px;
+.logo {
+    width: min(10vw, 100px); /* Ensures responsiveness without media queries */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 90px; /* Prevents it from becoming too large */
+    margin-left: 2vw; /* Adjusts margin relative to screen width */
 }
+
 ul{
     display: flex;
     list-style: none;
@@ -36,7 +40,7 @@ ul li{
 ul li img{
     padding: 10px 30px;
 }
-.theme-btn{
+.donate-btn{
 font-weight: bold;
 font-size: 11px;
 padding: 14px 34px;
