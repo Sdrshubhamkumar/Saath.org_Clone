@@ -43,7 +43,7 @@ const HomeContent = () => {
 				 
 
 					<div class="heading">
-					<h2 class="h">Highlights</h2>
+					<h2 class="h">Highlightst</h2>
 					</div>
 
 					<div class="list-unstyled ">
