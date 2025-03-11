@@ -11,7 +11,7 @@ const TopNavOne = () => {
 
     
 <div className='EnquireNow'>
-    <a class='Enquire'href="#">Enquire Now</a>
+    <a class='Enquire'href="#">Enquire</a>
     </div>
     
     <ul className="social-btn">
