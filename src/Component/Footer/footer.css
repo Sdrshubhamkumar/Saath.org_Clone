@@ -1,0 +1,16 @@
+.post{
+    background-color: #efebeb ;
+    display: flex;
+    margin: 15px 0px;
+    width: 60%
+
+
+}
+.post-meta2 li{
+    gap: 10px;
+}
+footer{
+    display: flex;
+    gap: 30px;
+    margin: 5vh 11vw;
+}

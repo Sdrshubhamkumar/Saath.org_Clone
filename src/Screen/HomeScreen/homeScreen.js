@@ -3,6 +3,7 @@ import './homeScreen.css'
 import HomeBanner from './HomeBanner/homeBanner'
 import HomeContent from './HomeBanner/homeContent'
 import HomeSector from './HomeBanner/homeSector'
+import Footer from '../../Component/Footer/footer'
 
 
 const HomeScreen = () => {
@@ -11,6 +12,7 @@ const HomeScreen = () => {
       <HomeBanner/>
       <HomeContent/>
       <HomeSector/>
+      <Footer/>
     </div>
   )
 }
