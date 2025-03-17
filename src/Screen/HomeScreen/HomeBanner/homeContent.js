@@ -24,7 +24,7 @@ const HomeContent = () => {
         <p>Saath envisions inclusive and empowered communities and individuals</p>
         <h1><strong>Mission</strong></h1>
         <p>To make human settlements equitable living environments where all residents and vulnerable people have access to health, education, essential infrastructure services and livelihood options, irrespective of their economic and social status.</p>
-        <br></br>
+    
         <div class="safe-affordable-cargo-1" >
 										<iframe width="560" height="300" src="https://www.youtube.com/embed/dx9dsFbRobs?autoplay=0&amp;controls=1&amp;showinfo=1&amp;mo
                     destbranding=1&amp;rel=0" title="YouTube video player" frameborder="0" autoplay="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
