@@ -26,7 +26,7 @@ const Footer = () => {
 <a target="_blank" href="https://saath.wordpress.com/2022/08/06/painting-the-young-minds-journey-at-saath/">''Painting the young minds journey at Saath'' - Shashi Kumar</a>
 </div>
 </div>
-
+-=
 <div class="post">
 {/* <img src="https://saath.org/wp-content/themes/saath/images/resource/recent-widget-bg1.jpg" alt="bg"></img> */}
 <div class="recent-news-thumb">
