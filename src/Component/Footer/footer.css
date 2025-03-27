@@ -1,22 +1,37 @@
+.footer-content{
+    display: flex;
+    gap: 30px;
+    margin: 5vh 11vw;
+
+}
 .post{
     background-color: #efebeb ;
     display: flex;
     margin: 15px 0px;
-    width: 60%
+    width: 80%
 
 
 }
 .post-meta2 li{
     gap: 10px;
+    font-size: small;
+    color: #767676;
 }
-footer{
-    display: flex;
-    gap: 30px;
-    margin: 5vh 11vw;
+.date{
+    color: #767676;
 }
+.post-discription{
+    font-size:smaller;
+    font-weight: bold;
+    color: #545252;
+}
+
+
+
 .rescecent-news-d
 {
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 25px;
+
 }
 .post-meta2 {
     /* flex: start; */
@@ -24,3 +39,24 @@ footer{
     padding: 10px;
 }
 
+.heading7 {
+}
+.facebook-blog{
+    background-color:#efebeb ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0px;
+}
+.instagram{
+    background-color:#efebeb ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px;
+}
+.instagram-tag{
+   
+   font-size: 24px;
+   font-weight: 800; 
+}
