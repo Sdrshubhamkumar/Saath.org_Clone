@@ -1,5 +1,6 @@
 .homeContent{
     margin: 0vw 25vh;
+    display: block;
 }
 .homeContent2{
     display: flex;

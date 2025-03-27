@@ -1,16 +1,26 @@
 import React from 'react'
 import './topNavThree.css'
+import {Link} from 'react-router-dom';
+
 
 const TopNavThree = () => {
   return (
     <div className='topNavThree'>
         <ul>
-        <li><a href="https://saath.org/">Home</a></li>
-        <li class="menu-item-has-children"><a href="#">About</a></li>
+        <li><Link to={'/'}>Home</Link></li>
+        <li class="menu-item-has-children"><a href="#">About</a>
+              <ul>
+                  <li><Link to={'About/profile'}>Profile</Link></li>
+                  <li><a href="/#">Board Of Trustees</a></li>
+                  <li><a href="/#">Governance</a></li>
+                  <li><a href="/#">History</a></li>
+                  <li><a href="/#">Saath Institutional Partners</a></li>
+              </ul>
+          </li>
         <li><a href="https://saath.org/funders-partners/">Funders & Partners</a></li>
-        <li class="menu-item-has-children"><a href="https://saath.org/programs/">Sectors</a></li>
+        <li className="menu-item-has-children"><a href="https://saath.org/programs/">Sectors</a></li>
         <li><a href="https://saath.org/awards-and-recognition/">Awards</a></li>
-        <li class="menu-item-has-children"><a href="#">Resources</a> </li>
+        <li className="menu-item-has-children"><a href="#">Resources</a> </li>
         <li><a href="https://saath.org/get-involved/">Get Involved</a></li>
         <li><a href="https://saath.org/corporate-social-responsibility-at-saath/">CSR</a></li>
         <li><a href="https://saath.org/innovations/">Innovations</a></li>
