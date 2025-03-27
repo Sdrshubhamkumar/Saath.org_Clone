@@ -1,7 +1,7 @@
 
 import './App.css';
-import Navbar from './Component/Header/Navbar';
-import HomeScreen from './Screen/HomeScreen/HomeScreen';
+import Navbar from './Component/Header/navbar';
+import HomeScreen from './Screen/HomeScreen/homeScreen';
 import '@fortawesome/fontawesome-free/css/all.css';
 import {Routes,Route} from 'react-router-dom';
 import Profile from './Component/About/profile';
