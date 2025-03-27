@@ -20,7 +20,7 @@
 }
 
 .topNavThree ul li {
-
+position: relative;
     margin: 0;
     display: list-item; /* Keeps list items in one line */
     list-style-type: disc;
@@ -35,4 +35,31 @@
     margin: 0;
     display: inline-block; /* Prevents unwanted flex behavior */
     font-size: 14px; /* Adjust text size */
+}
+.menu-item-has-children ul {
+    position: absolute;
+    top: 100%; /* Places dropdown below the parent */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    list-style: none;
+    display: none; /* Initially hide dropdown */
+    width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.menu-item-has-children ul li {
+    display: block;
+    padding: 8px 15px;
+}
+
+.menu-item-has-children ul li a {
+    color: rgb(91, 84, 84);
+    display: block;
+    width: 100%;
+}
+
+/* Show dropdown on hover */
+.menu-item-has-children:hover ul {
+    display: block;
 }

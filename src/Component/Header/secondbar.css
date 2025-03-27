@@ -1,0 +1,15 @@
+.secondbar::before {
+    content: "";
+    display: block;
+    /* height: 40px; Same height as .topNavOne */
+}
+
+.secondbar {
+    position: relative;
+    position: sticky;
+    top: 0;
+    /* background-color: white; */
+    z-index: 1000;
+    /* padding: 10px; */
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}

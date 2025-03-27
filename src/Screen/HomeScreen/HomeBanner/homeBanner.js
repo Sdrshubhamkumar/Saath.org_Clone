@@ -24,7 +24,7 @@ const HomeBanner = () => {
 
      const indexClear = setInterval(()=>{
       Handlenext()
-    },2000)
+    },6000)
 
     return () => clearInterval(indexClear)
 
