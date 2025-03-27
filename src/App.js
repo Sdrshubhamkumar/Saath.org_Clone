@@ -11,18 +11,12 @@ import SecondBar from './Component/Header/secondbar';
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-       <Navbar/>
-      <HomeScreen/>
-=======
-      <Navbar/>
-      
-      <Routes>
-        <Route path="/" element={<HomeScreen/>}/>
-        <Route path="About/profile" element={<Profile/>}/>
-      </Routes>
-    
->>>>>>> ea93917 (updated header)
+<Navbar/>
+
+<Routes>
+  <Route path="/" element={<HomeScreen/>}/>
+  <Route path="About/profile" element={<Profile/>}/>
+</Routes>
   
     </div>
   );
