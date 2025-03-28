@@ -7,6 +7,7 @@ const Profile = () => {
             <h1>Profile Page</h1>
             <p>Welcome to the profile page!</p>
             <h1>Hi i am shalini</h1>
+            <h1>hi i have done</h1>
      
          
           
