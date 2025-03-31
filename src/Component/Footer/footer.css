@@ -1,14 +1,40 @@
-.footer-content{
+*{
+    margin: 0;
+    padding: 0;
+}.footer-content {
     display: flex;
-    gap: 30px;
-    margin: 5vh 11vw;
+    flex-direction: row;
+    justify-content: flex-start;  /* Prevent extra space */
+    align-items: flex-start;      /* Align items at the top */
+    gap: 10px;  /* Adjust as needed */
+}
+.post-box1{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-start;
 
+}
+.post-box2{
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-start;
+
+}
+.contact-detail {
+    display: flex;
+    flex-direction:column;
+    margin-left: 10px;
+
+   
+    
 }
 .post{
     background-color: #efebeb ;
     display: flex;
     margin: 15px 0px;
-    width: 80%
+    width: 70%
 
 
 }
@@ -35,8 +61,8 @@
 }
 .post-meta2 {
     /* flex: start; */
-    margin: 0%;
-    padding: 10px;
+    /* margin: 0%; */
+    /* padding: 10px; */
 }
 
 .heading7 {
@@ -50,13 +76,68 @@
 }
 .instagram{
     background-color:#efebeb ;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 40px 40px;
+    padding: 40px 40px;  
+   color: #337ab7;
+}
+.instagram a{
+    color: #337ab7;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .instagram-tag{
    
    font-size: 24px;
    font-weight: 800; 
+}
+
+.contact{
+    margin-top: 10px;
+
+}
+.contact>i {
+    color: #848484;
+    float: left;
+    font-size: 22px;
+    margin-right: 20px;
+}
+.contact>span {
+    float: left;
+    font-size: 14px;
+    margin-right: 28px;
+}
+.imap {
+    width: 100%;
+    height: 170px;
+    border: 0;
+}
+.bottom-line {
+    background: #131313;
+    width: 100%;
+    text-align: center; /* Centers inline elements */
+    display: flex;
+     
+    /* align-items: center; Centers content vertically */
+    padding: 30px 22%; /* Adds spacing */
+    
+}
+
+.bottom-line span {
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 12px;
+    width: auto; /* Prevents full width */
+    display: inline-block; /* Allows inline alignment */
+
+}
+
+.bottom-line a {
+    color: #fff;
+    /* margin-left: 5px; Adds a small gap between text and link */
 }

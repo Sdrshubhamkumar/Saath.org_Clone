@@ -1,6 +1,7 @@
 import React from 'react'
 import './topNavTwo.css'
 import logo from '../../../Assets/logo.png'
+
 const TopNavTwo = () => {
   return (
     <div className='topNavTwo'>
