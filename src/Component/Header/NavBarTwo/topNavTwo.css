@@ -55,3 +55,34 @@ border-radius: 3px;
     color: black;
     font-weight:500;
 }
+.burger{
+    display: none;
+    position:absolute;
+    cursor: pointer;
+    right:5%;
+    top: 15px;
+    background-color: black;
+    color: white;
+    /* font-size: 1.5rem; */
+    border-radius: 5px;
+    
+
+}
+.menu-toggle{
+    /* display: none; */
+    font-size: 3rem;
+    /* color: white; */
+    cursor: pointer;
+    position: relative;
+    right: 0px;
+    /* width: 50px; */
+    padding: 0px 10px;
+
+}
+@media only screen and (max-width: 1040px){
+    .burger{
+        /* display: block; */
+    }
+   
+    
+}

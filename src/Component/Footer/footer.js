@@ -135,7 +135,9 @@ const Footer = () => {
 
 
 
-<span>Copyright © 2016 Saath.<span><br/></span> <a href="https://www.siliconinfo.com" title="Leading Website Development Company Silicon Valley Infomedia" target="_blank">Website Design And Development</a> By Silicon Valley</span>
+<div className="bottom-content">
+Copyright © 2016 Saath. <a href="https://www.siliconinfo.com" title="Leading Website Development Company Silicon Valley Infomedia" target="_blank">Website Design And Development</a> By Silicon Valley
+</div>
                        
 
 

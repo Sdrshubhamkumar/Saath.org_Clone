@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;  /* Prevent extra space */
-    align-items: flex-start;      /* Align items at the top */
+    /* align-items: flex-start;      Align items at the top */
     gap: 10px;  /* Adjust as needed */
 }
 .post-box1{
@@ -119,25 +119,27 @@
 }
 .bottom-line {
     background: #131313;
+    color: #fff;
     width: 100%;
     text-align: center; /* Centers inline elements */
     display: flex;
      
     /* align-items: center; Centers content vertically */
-    padding: 30px 22%; /* Adds spacing */
     
 }
 
-.bottom-line span {
-    color: #fff;
+ .bottom-content {
+    
     font-family: Lato, sans-serif;
     font-size: 12px;
     width: auto; /* Prevents full width */
-    display: inline-block; /* Allows inline alignment */
+    /* display: inline-block; Allows inline alignment */
+    padding: 40px 40px 40px 20%;
+    
 
 }
 
-.bottom-line a {
+.bottom-content a {
     color: #fff;
-    /* margin-left: 5px; Adds a small gap between text and link */
+    /* text-decoration: none; */
 }

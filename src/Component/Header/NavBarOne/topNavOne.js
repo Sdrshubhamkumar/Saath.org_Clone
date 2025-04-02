@@ -8,7 +8,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const TopNavOne = () => {
   return (
     <div className='topNavOne'> 
-
+   
+        
     
 <div className='EnquireNow'>
     <a class='Enquire'href="#">Enquire</a>
@@ -22,6 +23,7 @@ const TopNavOne = () => {
         <li><a href="https://www.youtube.com/user/SaathNGO" target="_blank" rel="nofollow"><i className="fab fa-youtube"></i></a></li>
         <li><a href="https://www.instagram.com/saathcharitabletrust/" target="_blank" rel="nofollow"><i className="fab fa-instagram"></i></a></li>
       </ul>
+    
 </div>
 
   

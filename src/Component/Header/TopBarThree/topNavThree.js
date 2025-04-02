@@ -5,8 +5,16 @@ import {Link} from 'react-router-dom';
 
 const TopNavThree = () => {
   return (
+    <div className="resp-nav">
+    
+     <div class="burger">
+  <div className="menu-toggle"> &#8801;</div> 
+        </div> 
+    
     <div className='topNavThree'>
-        <ul>
+
+
+        <ul className='hidden-navbar'>
         <li><Link to={'/'}>Home</Link></li>
         <li class="menu-item-has-children"><a href="#">About</a>
               <ul>
@@ -26,8 +34,10 @@ const TopNavThree = () => {
         <li><a href="https://saath.org/innovations/">Innovations</a></li>
         <li><a href="https://saath.org/impact/">impact</a></li>
          </ul>
-                    
+              
     </div>
+    </div>
+    
   )
 }
 
